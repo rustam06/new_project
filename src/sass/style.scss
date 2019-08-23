@@ -8,8 +8,9 @@
 @import 'blocks/buttons';
 @import 'blocks/advantages';
 @import 'blocks/headlines';
+@import 'base/media';
 
 .container {
-    max-width: 950px;
+    max-width: 950px; 
     margin: 0 auto;
 }

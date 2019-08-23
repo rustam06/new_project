@@ -1,0 +1,131 @@
+@media (max-width: 1199px) {
+    .container {
+        width: 80%;
+    }
+
+    .header__official {
+        font-size: 10px;
+        font-weight: 300;
+
+        span {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .promo__wrapper {
+        align-items: center;
+    }
+
+    .header__official {
+        display: none;
+    }
+
+    .advantages__items {
+        flex-direction: column;
+        align-items: center;
+
+        .advantages__item {
+            width: 300px;
+
+            p {
+                font-size: 16px;
+            }
+
+            .headline_advantages {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header__logo {
+        width: 193px;
+
+        &_main {
+            display: none;
+        }
+
+        &_minitext {
+            display: inline;
+        }
+    }
+}
+
+
+@media (max-width: 575px) {
+    .header__logo {
+        width: 50px;
+
+        &_main {
+            display: none;
+        }
+
+        &_minitext {
+            display: none;
+        }
+
+        &_mini {
+            display: inline;
+        }
+    }
+
+    .header__phone {
+        font-size: 15px;
+    }
+
+    .button {
+        width: 133px;
+        height: 26px;
+        font-size: 12px;
+
+        &_main {
+            height: 40px;
+            width: 160px;
+            font-size: 11px;
+        }
+    }
+
+    .promo__header {
+        font-size: 35px;
+    }
+
+    .promo__subheader {
+        font-size: 19px;
+    }
+
+    .promo__icons {
+        width: 300px;
+
+        .promo__icon {
+            font-size: 11px;
+        }
+    }
+
+    .promo__link {
+        font-size: 12px;
+    }
+
+    .advantages__items {
+        .headline {
+            font-size: 28px;
+        }
+        .advantages__item {
+            .headline_advantages {
+                font-size: 16px;
+            }
+         
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+
+
+
+
+@media (max-width: 320px) {}
