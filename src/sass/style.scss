@@ -2,6 +2,11 @@
     font-family: 'Museo Sans Cyrl', sans-serif; 
 }
 
+.container {
+    max-width: 950px; 
+    margin: 0 auto;
+}
+
 @import 'base/variables';
 @import 'blocks/promo';
 @import 'blocks/header';
@@ -11,9 +16,8 @@
 @import 'blocks/consultation';
 @import 'blocks/forms';
 @import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/otzyvy';
+@import 'blocks/footer';
 @import 'base/media';
 
-.container {
-    max-width: 950px; 
-    margin: 0 auto;
-}

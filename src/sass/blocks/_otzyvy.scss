@@ -1,0 +1,31 @@
+.otzyvy{
+    padding-bottom: 71px;
+    &__item {
+        display: flex;
+        align-items: center;
+        margin-top: 70px;
+        .headline_otzyv {
+            text-align: left;
+            font-size: 18px;
+            line-height: 10px;
+        }
+    }
+    &__descr {
+        max-width: 656px;
+        span {
+            display: block;
+            color: #646464;
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #0d0d0d;
+            font-size: 16px;
+            font-weight: 300;
+        }
+    }
+    &__img {
+        margin-right: 62px;
+    }
+}

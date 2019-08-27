@@ -86,9 +86,11 @@
         }
     }
 
+    .otzyvy__img {
+        margin-right: 35px;
+    }
+
 }
-
-
 
 @media (max-width: 767px) {
     .header__logo {
@@ -130,8 +132,56 @@
             }
         }
     }
-}
 
+    .catalog {
+        &__tab {
+        width: 220px;
+        height: 48px;
+        font-size: 15px;
+        }
+        &__content_active {
+            justify-content: center;
+        }   
+    }
+
+    .otzyvy__item {
+        display: block;
+        text-align: center;
+        .otzyvy__img {
+            margin-right: 0;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .headline_otzyv {
+            text-align: center;
+        }
+    }
+
+    .footer__info {
+        padding: 0;
+        width: 380px;
+        height: 200px;
+        top: auto;
+        bottom: 0;
+        .footer__adr {
+            margin-bottom: 24px;
+            font-size: 18px;
+            margin-top: 30px;
+        }
+        .footer__tel {
+            font-size: 18px;
+        }
+        .footer__social {
+            margin-top: 20px;
+            &-item {
+                width: 45px;
+                height: 45px;
+                font-size: 22px;
+                line-height: 45px
+            }
+        }
+    }
+}
 
 @media (max-width: 575px) {
     .header__logo {
@@ -158,26 +208,21 @@
         width: 133px;
         height: 26px;
         font-size: 12px;
-
         &_main {
             height: 40px;
             width: 160px;
             font-size: 11px;
         }
-
         &_consultation {
             width: 100%;
         }
     }
-
     .promo__header {
         font-size: 35px;
     }
-
     .promo__subheader {
         font-size: 19px;
     }
-
     .promo__icons {
         width: 300px;
 
@@ -185,50 +230,40 @@
             font-size: 11px;
         }
     }
-
     .promo__link {
         font-size: 12px;
     }
-
     .advantages__items {
         .headline {
             font-size: 28px;
         }
-
         .advantages__item {
             .headline_advantages {
                 font-size: 17px;
             }
-
             p {
                 font-size: 14px;
             }
         }
     }
-
     .headline_left {
         font-size: 16px;
         text-align: center;
     }
-
     .consultation__descr {
         font-size: 13px;
         text-align: center;
     }
-
     .consultation {
         padding-top: 70px;
         padding-bottom: 0;
         min-height: 550px;
-
         .feed-form {
             margin: 36px auto 0 auto;
             width: 225px;
-
             input {
                 height: 35px;
             }
-
             button {
                 height: 36px;
                 font-size: 12px;
@@ -236,6 +271,54 @@
         }
     }
 
+    .catalog {
+        &__content {
+            .catalog-item {
+                &__footer {
+                    .button_mini {
+                        width: 86px;
+                        height: 23px;
+                        font-size: 12px;
+                    }
+                }
+                &__price {
+                    font-size: 18px;
+                }
+            }
+        }
+        .headline {
+            font-size: 27px;
+        }
+        &__tab {
+            width: 220px;
+            height: 30px;
+            font-size: 9px;
+            margin: 0 2px;
+            }
+        &__tabs {
+            div {
+                line-height: 29px;
+            }
+        }
+    }
+    .otzyvy__descr {
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .footer__info {
+        width: 310px;
+        height: 170px;
+        .footer__adr {
+            margin-bottom: 15px;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        .footer__tel {
+            font-size: 16px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
