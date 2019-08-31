@@ -306,18 +306,42 @@
             font-size: 15px;
         }
     }
-    .footer__info {
-        width: 310px;
-        height: 170px;
-        .footer__adr {
-            margin-bottom: 15px;
-            margin-top: 20px;
-            font-size: 16px;
-        }
-        .footer__tel {
-            font-size: 16px;
+
+    .footer {
+        height: 480px;
+        &__info {
+            width: 310px;
+            height: 83px;
+            .footer__adr {
+                margin-bottom: 0px;
+                margin-top: 2px;
+                font-size: 13px;
+            }
+            .footer__tel {
+                display: block;
+                font-size: 12px;
+                margin-bottom: 5px;
+                margin-top: 5px;
+            }
+            .footer__social {
+                margin-top: 0;
+                &-item {
+                    width: 30px;
+                    height: 30px;
+                    font-size: 17px;
+                    line-height: 29px;
+                }
+            }
+
         }
     }
+
+    .pageup {
+        bottom: 120px;
+        right: 5px;
+        width: 40px;
+    }
+    
     .overlay {
         .modal {
             width: 260px;
@@ -350,6 +374,8 @@
     label.error {
          font-size: 13px;   
     }
+
+
 }
 
 
