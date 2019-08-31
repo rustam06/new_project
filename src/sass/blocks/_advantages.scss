@@ -23,5 +23,9 @@
         justify-content: space-between;
         align-items: flex-start;
     }
+    &__icon_animated {
+        -webkit-animation: heartbeat 1.5s ease infinite;
+        animation: heartbeat 1s ease infinite;
+    }
 }
 

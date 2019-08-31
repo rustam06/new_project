@@ -256,7 +256,7 @@
     }
     .consultation {
         padding-top: 70px;
-        padding-bottom: 0;
+        padding-bottom: 70px;
         min-height: 550px;
         .feed-form {
             margin: 36px auto 0 auto;
@@ -306,7 +306,6 @@
             font-size: 15px;
         }
     }
-
     .footer__info {
         width: 310px;
         height: 170px;
@@ -319,9 +318,42 @@
             font-size: 16px;
         }
     }
+    .overlay {
+        .modal {
+            width: 260px;
+            padding: 16px 14px 14px 14px;
+            min-height: 323px;
+            border-radius: 10px;
+            &__subtitle {
+                font-size: 14px;
+            }
+            &__descr {
+                font-size: 11px;
+            }
+            .feed-form{
+                width: 100%;
+                .button {
+                    height: 40px;
+                    font-size: 12px;
+                }
+            } 
+            &__close {
+                top: 1px;
+                right: -25px;
+                font-size: 30px;
+            }
+        }
+    }
+    .feed-form input {
+            height: 45px;
+        }
+    label.error {
+         font-size: 13px;   
+    }
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 768px){
     .carousel {
         &__inner {
             width: 100%;
